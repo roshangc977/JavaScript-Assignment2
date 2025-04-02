@@ -1,9 +1,9 @@
-body {
+body {      /*General styling*/
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #f8f9fa;
 }
-.container {
+.container {        /*Styling div container*/
     width: 50%;
     margin: auto;
     background: white;
@@ -11,14 +11,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-select, input, button {
+select, input, button {     /*For the input fields and button*/
     width: 100%;
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-.order-summary {
+.order-summary {        /*Summary of order box*/
     margin-top: 20px;
     padding: 15px;
     background-color: #e9ecef;
